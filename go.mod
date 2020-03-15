@@ -18,4 +18,5 @@ require (
 	golang.org/x/net v0.0.0-20200301022130-244492dfa37a // indirect
 	golang.org/x/tools v0.0.0-20200313205530-4303120df7d8 // indirect
 	google.golang.org/appengine v1.6.5 // indirect
+	xorm.io/xorm v0.8.2 // indirect
 )

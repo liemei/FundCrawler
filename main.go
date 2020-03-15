@@ -10,12 +10,13 @@ import (
 
 func main() {
 	fmt.Println("111")
+	fmt.Println("")
 	c := colly.NewCollector(colly.Debugger(&debug.LogDebugger{}))
-	fmt.
+	fmt.Print("a")
+
 	c.OnRequest(func(r *colly.Request) {
 		fmt.Println("Visiting", r.URL)
 	})
-
 	c.OnError(func(_ *colly.Response, err error) {
 		log.Println("Something went wrong:", err)
 	})

@@ -1,3 +1,8 @@
 {
-    "go.inferGopath": false
+    "go.inferGopath": false,
+    "http.proxy": "https://goproxy.io",
+    "go.autocompleteUnimportedPackages": true,
+    "go.gocodeAutoBuild": true,
+    "goOutliner.enableDebugChannel": true,
+    "go.useCodeSnippetsOnFunctionSuggest": true
 }
